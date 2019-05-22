@@ -1,7 +1,10 @@
 # TCPA
 
 wget https://raw.githubusercontent.com/miaocloud/TCPA/master/tcpa.sh
+
 sh tcpa.sh
+
+
 新增加速端口: 
 vi  /usr/local/storage/tcpav2/start.sh 
 $BINDIR/$CTLAPP access add tip $ip tport 自定义端口
